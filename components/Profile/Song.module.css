@@ -1,0 +1,33 @@
+.track__div {
+  display: flex;
+  padding: 12px 12px 16px;
+  border-bottom: 1px solid #f1f3f586;
+  justify-content: space-between;
+}
+.track__details--box {
+  display: flex;
+  gap: 24px;
+}
+.track--details {
+  align-self: center;
+  color: #f8f9fa;
+}
+.track--title {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+.track__img--box {
+  width: 100px;
+  height: 100px;
+}
+.track__img--box img {
+  width: 100px;
+  height: 100px;
+}
+.track--icons {
+  color: #f8f9fa;
+  font-size: 32px;
+  align-self: center;
+  display: flex;
+  gap: 24px;
+}

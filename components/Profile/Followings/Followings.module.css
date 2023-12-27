@@ -1,0 +1,7 @@
+.followings__container {
+  padding-bottom: 57px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 24px;
+  row-gap: 24px;
+}

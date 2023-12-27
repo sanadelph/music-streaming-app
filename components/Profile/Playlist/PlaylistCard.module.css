@@ -1,0 +1,29 @@
+.playlist__card {
+  margin-top: 12px;
+  text-align: center;
+  justify-self: center;
+}
+.playlist__card:hover {
+  cursor: pointer;
+}
+.playlist__card:hover .playlist__img--box img {
+  transform: scale(1.02);
+}
+
+.playlist__img--box {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+}
+.playlist__img--box img {
+  width: 250px;
+  height: 250px;
+  transition: all 0.1s ease-in;
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+.playlist__title {
+  color: #f8f9fa;
+  font-size: 28px;
+}

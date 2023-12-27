@@ -1,0 +1,33 @@
+.swiper__container {
+  position: relative;
+  padding: 5px 48px;
+}
+
+.swiper__header {
+  /* display: flex;
+  justify-content: space-between; */
+  margin-bottom: 32px;
+  margin-left: 32px;
+}
+
+.heading--secondary {
+  color: #fff;
+  font-size: 32px;
+}
+
+.swiper__icons {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+  color: #f1f3f5;
+}
+.swiper__icon--prev {
+  margin-left: 16px;
+  left: 0;
+}
+.swiper__icon--next {
+  margin-right: 16px;
+  right: 0;
+}

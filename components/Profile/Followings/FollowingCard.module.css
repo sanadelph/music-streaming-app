@@ -1,0 +1,14 @@
+.following__card {
+  text-align: center;
+}
+.folowing__img--box,
+.folowing__img--box img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.following__title {
+  margin-top: 16px;
+  color: #f8f9fa;
+  font-size: 24px;
+}

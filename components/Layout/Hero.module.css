@@ -1,0 +1,21 @@
+.hero--section {
+  /* background-image: url("/hero.jpg"); */
+  background-image: linear-gradient(to top, #212529, #1971c2);
+  height: 70vh;
+  background-clip: content-box;
+}
+
+.hero__heading--primary {
+  font-size: 57px;
+  text-align: center;
+  padding: 120px;
+  margin-top: 0;
+  /* color: #e9ecef; */
+  background-image: linear-gradient(100deg, #ddd, #a5d8ff);
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hero__heading--primary span {
+  font-weight: 600;
+}
